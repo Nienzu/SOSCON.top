@@ -10,7 +10,7 @@
 
     <nav class="title1">
       <div class="nav-wrapper">
-        <router-link to="/" class="brand-logo" style="margin-left: 3%">SOSCON<span style="color: #66ccff">18</span></router-link>
+        <router-link to="/" class="brand-logo" style="margin-left: 3%">GNOME.Asia<span style="color: #66ccff"> 2018</span></router-link>
         <router-link to="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></router-link>
         <ul class="right hide-on-med-and-down" style="margin-right: 3%">
           <li><router-link to="/">首页</router-link></li>
@@ -20,7 +20,6 @@
           <li class="t1"><router-link to="">感谢</router-link></li>
           <li><router-link to="/aboutUs" >关于我们</router-link></li>
           <li class="t1"><a class="dropdown-trigger" href="#!"  data-target="dropdown1">语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class=" t1 t3"><a class="modal-trigger waves-effect waves-light btn" >登录/注册</a></li>
         </ul>
       </div>
     </nav>
@@ -38,11 +37,10 @@
       <li><router-link to="" class="t1">感谢</router-link></li>
       <li @click="closeNav"><router-link to="/aboutUs"  >关于我们</router-link></li>
       <li><a class="dropdown-trigger t1"  data-target="dropdown2" >语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li class=" t1 t3"><a class="modal-trigger waves-effect waves-light btn" >登录/注册</a></li>
 
     </ul>
 
-     <!--登录模态框-->
+     <!--登录模态框
      <div id="modalLogin" class="modal">
 
        <div class="modal-content">
@@ -76,6 +74,7 @@
 
        </div>
      </div>
+     -->
   </div>
 
 
@@ -83,6 +82,7 @@
 
 
 <script>
+/*
     export default {
         name: "nav",
         methods:{
@@ -120,6 +120,7 @@
       // $(".dropdown-trigger").dropdown();
       $('.modal').modal();
     }
+    */
 </script>
 
 <style scoped>

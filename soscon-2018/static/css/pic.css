@@ -14,7 +14,7 @@
 
 .pic1{
     display: flex;
-    background-image: url("../img/pic5.jpg");
+    background-image: url("../img/test.jpg");
     background-position: center;
     backface-visibility: hidden;
     background-size:cover;
@@ -86,7 +86,7 @@
 .main{
     display: flex;
     justify-content: center;
-    background-image: url("../img/pic5.jpg");
+    background-image: url("../img/test.jpg");
     background-size: cover;
     position: relative;
     transition: 0.3s ease-in-out;
@@ -286,7 +286,7 @@
     width: 100%;
     height: 100%;
     justify-content: center;
-    background-image: url("../img/pic5.jpg");
+    background-image: url("../img/test.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
