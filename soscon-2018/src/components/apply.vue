@@ -1,28 +1,64 @@
 <template>
   <div>
-  <img src="../../static/img/pic6.jpg" :style="{height:h1}" style="width: 100%;position: fixed" >
+  <img src="../../static/img/test.jpg" :style="{height:h1}" style="width: 100%;position: fixed" >
   <div class="container">
     <div class="baoming">
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12">
           <div    class="icon-block second applyContainer">
             <h2 class="center brown-text"><i class="material-icons co1">perm_camera_mic</i></h2>
-            <h5 class="center">招募演讲者</h5>
+            <h3 class="center">招募講者</h3>
             <!--<p class="light">-->
-            <div style="margin-top:40px;">
-              <p>学生开源年会演讲募集中！
+            <div style="margin-top:40px; " >
+              <h6>GNOME.Asia 2018 Summit 演讲募集中！
                 <!--<p style=">你是否愿意分享自己对开源和code的热爱和不一样的见解？</p>-->
-                <br>我们希望学生能积极交流，让学生站上舞台，展示诞生在实验室里的创想，分享蕴含在编码中的激情，畅聊属于开源理念的未来!
-                <br>我们也欢迎社区前辈传授经验，分享见闻，帮助学生了解开源，参与开源，贡献开源！
-                <br/>报名截止时间5月20日
-              </p>
+                GNOME.Asia 2018 Summit 即日起至5月25日開放演講報名
+                <br>歡迎廣大的 GNOME 用戶、愛好者提交演講
+                <br>與 GNOME 有關的開發、本地化、社區運營、推廣等話題，包括但不限於：
+              </h6>
+              <ul class="collection">
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>GNOME的最新開發動態</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 開發GNOME 3 的應用</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 界面設計</li>
+                
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 測試</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 輔助功能</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME人機界面工程（圖標和圖形設計）</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 市場</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 推廣自由軟體 / 開源軟體</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 亞洲成功案例或本地GNOME項目</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME和教育</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 女性拓展計劃</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 在移動設備上使用和開發 GNOME (智能手機和平板)</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 在嵌入設備或開源硬體上使用和開發 GNOME</li>
+              </ul>
+              <h6>其他非 GNOME，但是和 Linux 以及開源有關的話題，包括但不限於：</h6>
+              <ul class="collection">
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> Linux 內核及開發</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 開源操作系統的開發、使用和技術、推廣</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> Debian、Fedora、openSUSE、Ubuntu、及FreeBSD等發行版相關的話題</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 其他開源項目有關的開發、使用、推廣話題</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>你的開源故事、如何參與開源社區、開源經歷</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>女生如何更好地參與開源</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>在生活及工作中如何使用開源工具改善流程與提高效率</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>人工智慧、深度學習、機器學習相關話題</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>AR/VR 虛擬顯示、增強顯示、顯示技術</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>大數據</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>其他和開源有關的話題</li>
+              </ul>
+              <h6>本次大會的所有演講將會被錄影並以 CC-BY-4.0 協議分享到共有領域。如果您的演講有不能錄影或不願遵照此條款，請務必於投稿表單上註明。（請亦不必有心理負擔）</h6>
+              
             </div>
+            <!--
             <div class="button" style="margin-bottom: 10px">
-              <a class="waves-effect waves-light btn modal-trigger back1" @click="open3" style="vertical-align: bottom">报名成为演讲者</a>
+              <a class="waves-effect waves-light btn modal-trigger back1" @click="open3" style="vertical-align: bottom">
+                报名成为演讲者
+                </a>
             </div>
+            -->
           </div>
         </div>
-
+        <!--
         <div class="col s12 m4">
           <div class="icon-block second applyContainer" >
             <h2 class="center brown-text"><i class="material-icons co2">favorite</i></h2>
@@ -30,7 +66,7 @@
             <div style="margin-top:40px;">
               <p>学生开源年会将定在6月9日 & 10日举办。
                 <br/>活动已经进入了紧张的筹备中，我们需要广大社区朋友们的支援。
-                <br/>如果你对SOSCON感兴趣，那么以志工的身份参与到会议中一定会给你带来意义非凡的活动体验。
+                <br/>如果你对GNOME.Asia感兴趣，那么以志工的身份参与到会议中一定会给你带来意义非凡的活动体验。
 
               </p>
             </div>
@@ -40,13 +76,14 @@
             </div>
           </div>
         </div>
-
-        <div class="col s12 m4">
+        -->
+        <!--
+        <div class="col s6">
           <div class="icon-block second applyContainer">
             <h2 class="center brown-text"><i class="material-icons co3">credit_card</i></h2>
-            <h5 class="center">获取入场券</h5>
+            <h5 class="center">獲得門票</h5>
             <div style="margin-top:40px;">
-              <P>SOSCON票务即将开放
+              <P>票务即将开放
                 <br>在这里, 你能感受到科技的魅力
                 也能结交到志同道合的朋友
 
@@ -58,13 +95,14 @@
                 <br>第一轮放票将在4月22日正式开启
               </p>
             </div>
-            <!-- Modal Trigger -->
+
 
             <div class="button" style="margin-bottom: 10px">
               <a class="waves-effect waves-light btn modal-trigger back3" @click="open1">立即获取入场券</a>
             </div>
           </div>
         </div>
+        -->
       </div>
     </div>
   </div>
@@ -129,7 +167,7 @@
         <div class="row">
           <span style="font-size: 1rem">愿意加入志愿者的哪些组？(多选)<span style="color: red">*</span> </span><br>
           <label class="col "><input type="checkbox" name="teams" value="1"><i>✓</i>摄影组：如果你是摄影爱好者，请用相机记录下我们的精彩瞬间。</label><br>
-          <label class="col "><input type="checkbox" name="teams" value="2"><i>✓</i>翻译组：SOSCON是面向全球学生的开源年会，如果你擅长英语交流，请不吝赐教。</label><br>
+          <label class="col "><input type="checkbox" name="teams" value="2"><i>✓</i>翻译组：GNOME.Asia是面向全球学生的开源年会，如果你擅长英语交流，请不吝赐教。</label><br>
           <label class="col "><input type="checkbox" name="teams" value="3"><i>✓</i>场务组：负责会议筹备到正式进行期间场地的相关问题。</label><br>
           <label class="col "><input type="checkbox" name="teams" value="4"><i>✓</i>服务组：负责检票&发放物资，在会场帮助引导嘉宾。</label><br>
           <label class="col "><input type="checkbox" name="teams" value="5"><i>✓</i>放映组：负责会场的放映，帮助嘉宾准备演讲。</label><br>
@@ -172,7 +210,7 @@
   <!-- Modal Structure -->
   <div id="modal3" class="modal modal-fixed-footer" style="box-shadow: black 0px 0px 5px 1px; ">
     <div class="modal-content">
-      <h4>报名演讲</h4>
+      <h4>報名演講</h4>
 
       <div class="divider"></div>
       <div class="section">
@@ -221,7 +259,7 @@
         <h5>投稿方式</h5>
 
         <ul>
-          <li>投稿邮箱: soscon@openingsource.org</li>
+          <li>投稿邮箱: GNOME.Asia@openingsource.org</li>
         </ul>
 
       </div>
@@ -249,93 +287,118 @@
 </template>
 
 <script>
-    let h_screen = window.screen.height;
-    export default {
-        name: "apply",
-        methods: {
-          open1() {
-            $('.modal').modal();
-            $('#modal1').modal('open');
-          },
-          open2() {
-            $('.modal').modal();
-            $('#modal2').modal('open');
-          },
-          open3() {
-            $('.modal').modal();
-            $('#modal3').modal('open');
-          },
-          sub() {
-            $.ajax({
-              method: 'post',
-              url: '/account/register',
-              data: $('#form1').serialize()
-            }).done(function (data) {
-              if (data.result !== '提交成功'){
-              swal({
-                text: data.result,
-                type: 'error',
-                timer: 2000
-              })
-            }
-            else {
-              swal({
-                text: data.result,
-                type: 'success',
-                timer: 3000
-              })
-                $('#form1')[0].reset()
-
-            }
-            })
-          }
-        },
-        computed:{
-          h1(){
-            console.log(h_screen + 'px')
-            return h_screen + 'px'
-          }
-      }
-
+let h_screen = window.screen.height;
+export default {
+  name: "apply",
+  methods: {
+    open1() {
+      $(".modal").modal();
+      $("#modal1").modal("open");
+    },
+    open2() {
+      $(".modal").modal();
+      $("#modal2").modal("open");
+    },
+    open3() {
+      $(".modal").modal();
+      $("#modal3").modal("open");
+    },
+    sub() {
+      $.ajax({
+        method: "post",
+        url: "/account/register",
+        data: $("#form1").serialize()
+      }).done(function(data) {
+        if (data.result !== "提交成功") {
+          swal({
+            text: data.result,
+            type: "error",
+            timer: 2000
+          });
+        } else {
+          swal({
+            text: data.result,
+            type: "success",
+            timer: 3000
+          });
+          $("#form1")[0].reset();
+        }
+      });
     }
+  },
+  computed: {
+    h1() {
+      console.log(h_screen + "px");
+      return h_screen + "px";
+    }
+  }
+};
 </script>
 
 <style scoped>
-  p{
-    font-size: 0.85rem;
-  }
-  body {
-    font-family: "Microsoft YaHei UI";
-  }
-  .second{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-  .co1{
-    color:rgb(244,208,0);
-  }
-  .co2{
-    color:rgb(229,131,8);
-  }
-  .co3{
-    color:rgb(220,87,18);
-  }
-  .back1{
-    background-color: rgb(244,208,0)!important;
-  }
-  .back2{
-    background-color: rgb(229,131,8)!important;
-  }
-  .back3{
-    background-color: rgb(220,87,18)!important;
-  }
-  label {font-size:1rem;cursor:pointer;}
-  label i {font-size:1rem;font-style:normal;display:inline-block;width:12px;height:12px;text-align:center;line-height:12px;color:#fff;vertical-align:middle;margin:-2px 2px 1px 0px;border:#2489c5 1px solid;}
-  input[type="checkbox"],input[type="radio"] {display:none;}
-  input[type="radio"] + i {border-radius:7px;}
-  input[type="checkbox"]:checked + i,input[type="radio"]:checked + i {background:#2489c5;}
-  input[type="checkbox"]:disabled + i,input[type="radio"]:disabled + i {border-color:#ccc;}
-  input[type="checkbox"]:checked:disabled + i,input[type="radio"]:checked:disabled + i {background:#ccc;}
+p {
+  font-size: 0.85rem;
+}
+body {
+  font-family: "Microsoft YaHei UI";
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.co1 {
+  color: rgb(244, 208, 0);
+}
+.co2 {
+  color: rgb(229, 131, 8);
+}
+.co3 {
+  color: rgb(220, 87, 18);
+}
+.back1 {
+  background-color: rgb(244, 208, 0) !important;
+}
+.back2 {
+  background-color: rgb(229, 131, 8) !important;
+}
+.back3 {
+  background-color: rgb(220, 87, 18) !important;
+}
+label {
+  font-size: 1rem;
+  cursor: pointer;
+}
+label i {
+  font-size: 1rem;
+  font-style: normal;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  line-height: 12px;
+  color: #fff;
+  vertical-align: middle;
+  margin: -2px 2px 1px 0px;
+  border: #2489c5 1px solid;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + i {
+  border-radius: 7px;
+}
+input[type="checkbox"]:checked + i,
+input[type="radio"]:checked + i {
+  background: #2489c5;
+}
+input[type="checkbox"]:disabled + i,
+input[type="radio"]:disabled + i {
+  border-color: #ccc;
+}
+input[type="checkbox"]:checked:disabled + i,
+input[type="radio"]:checked:disabled + i {
+  background: #ccc;
+}
 </style>

@@ -9,7 +9,7 @@
       </ul>
       <nav class="title1">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo" style="margin-left: 3%">SOSCON<span
+          <a href="index.html" class="brand-logo" style="margin-left: 3%">GNOME.Asia<span
             style="color: #66ccff">18</span></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down" style="margin-right: 3%">

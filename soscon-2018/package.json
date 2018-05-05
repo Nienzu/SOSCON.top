@@ -15,6 +15,7 @@
     "jquery": "^3.3.1",
     "jquery.cookie": "^1.4.1",
     "jquery.nicescroll": "^3.7.6",
+    "npm": "^6.0.0",
     "swal": "^0.1.0",
     "sweetalert2": "^7.18.0",
     "vue": "^2.5.2",

@@ -10,15 +10,15 @@
 
     <nav class="title1">
       <div class="nav-wrapper">
-        <router-link to="/" class="brand-logo" style="margin-left: 3%">GNOME.Asia<span style="color: #66ccff"> 2018</span></router-link>
+        <router-link to="/" class="brand-logo" style="margin-left: 3%">GNOME.Asia<span style="color: #66ccff"> 2018 Summit</span></router-link>
         <router-link to="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></router-link>
         <ul class="right hide-on-med-and-down" style="margin-right: 3%">
           <li><router-link to="/">首页</router-link></li>
-          <li ><router-link to="apply">报名</router-link></li>
-          <li class="t1"><router-link to="">议程</router-link></li>
-          <li class="t1"><router-link to="">动态</router-link></li>
-          <li class="t1"><router-link to="">感谢</router-link></li>
-          <li><router-link to="/aboutUs" >关于我们</router-link></li>
+          <li ><router-link to="apply">投稿</router-link></li>
+          <li class="t1"><router-link to="">議程</router-link></li>
+          <li class="t1"><router-link to="">新聞</router-link></li>
+          <li class="t1"><router-link to="">感謝</router-link></li>
+          <!--<li><router-link to="/aboutUs" >關於我們</router-link></li>-->
           <li class="t1"><a class="dropdown-trigger" href="#!"  data-target="dropdown1">语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
