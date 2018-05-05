@@ -1,6 +1,6 @@
 <template>
   <div>
-  <img src="../../static/img/test.jpg" :style="{height:h1}" style="width: 100%;position: fixed" >
+  <img src="../../static/img/background.jpg" :style="{height:h1}" style="width: 100%;position: fixed" >
   <div class="container">
     <div class="baoming">
       <div class="row">
@@ -8,8 +8,22 @@
           <div    class="icon-block second applyContainer">
             <h2 class="center brown-text"><i class="material-icons co1">perm_camera_mic</i></h2>
             <h3 class="center">招募講者</h3>
+              
+            <div><a class="waves-effect waves-light btn modal-trigger back1 center" href="https://docs.google.com/forms/d/e/1FAIpQLSfKnffsc_Ke2ZEP3fInJkAwEzXFUM24HZ7dYYluoGLmHMQjZw/viewform">
+                  報名成為講者
+                  </a>
+                  </div>
             <!--<p class="light">-->
             <div style="margin-top:40px; " >
+              <p style="font-weight: 700;font-size: x-large">————</p>
+              <h6>重要信息</h6>
+              <ul class="collection">
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>投稿期限： 5 月 25日</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>日議程表預定公布： 七月上旬</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>GNOME.Asia 2018： 8 月 11-12 日</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>舉辦地點：台灣科技大學</li>
+              </ul>
+              <p style="font-weight: 700;font-size: x-large">————</p>
               <h6>GNOME.Asia 2018 Summit 演讲募集中！
                 <!--<p style=">你是否愿意分享自己对开源和code的热爱和不一样的见解？</p>-->
                 GNOME.Asia 2018 Summit 即日起至5月25日開放演講報名
@@ -17,7 +31,7 @@
                 <br>與 GNOME 有關的開發、本地化、社區運營、推廣等話題，包括但不限於：
               </h6>
               <ul class="collection">
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>GNOME的最新開發動態</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME的最新開發動態</li>
                 <li class="collection-item"><i class="large material-icons ">chevron_right</i> 開發GNOME 3 的應用</li>
                 <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 界面設計</li>
                 
@@ -38,24 +52,19 @@
                 <li class="collection-item"><i class="large material-icons ">chevron_right</i> 開源操作系統的開發、使用和技術、推廣</li>
                 <li class="collection-item"><i class="large material-icons ">chevron_right</i> Debian、Fedora、openSUSE、Ubuntu、及FreeBSD等發行版相關的話題</li>
                 <li class="collection-item"><i class="large material-icons ">chevron_right</i> 其他開源項目有關的開發、使用、推廣話題</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>你的開源故事、如何參與開源社區、開源經歷</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>女生如何更好地參與開源</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>在生活及工作中如何使用開源工具改善流程與提高效率</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>人工智慧、深度學習、機器學習相關話題</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>AR/VR 虛擬顯示、增強顯示、顯示技術</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>大數據</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>其他和開源有關的話題</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 你的開源故事、如何參與開源社區、開源經歷</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 女生如何更好地參與開源</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 在生活及工作中如何使用開源工具改善流程與提高效率</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 人工智慧、深度學習、機器學習相關話題</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> AR/VR 虛擬顯示、增強顯示、顯示技術</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 大數據</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 其他和開源有關的話題</li>
               </ul>
               <h6>本次大會的所有演講將會被錄影並以 CC-BY-4.0 協議分享到共有領域。如果您的演講有不能錄影或不願遵照此條款，請務必於投稿表單上註明。（請亦不必有心理負擔）</h6>
               
+              <p style="font-weight: 700;font-size: x-large">————</p>   
             </div>
-            <!--
-            <div class="button" style="margin-bottom: 10px">
-              <a class="waves-effect waves-light btn modal-trigger back1" @click="open3" style="vertical-align: bottom">
-                报名成为演讲者
-                </a>
-            </div>
-            -->
+            
           </div>
         </div>
         <!--
