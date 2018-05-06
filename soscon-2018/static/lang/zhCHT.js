@@ -10,7 +10,7 @@ module.exports={
     community:'社區',
   },  
   About:{
-    aboutp1:'GNOME 基金會亞洲委員會在2008年成立，旨在通過舉辦 GNOME.Asia 亞洲峰會在亞洲地區推廣GNOME項目以及自由開源軟體的理念。GNOME.Asia 峰會與 GUADEC 峰會和 Boston 峰會一起成為了 GNOME 基金會每年的全球三大活動。此前的 GNOME.Asia 分別在北京、越南胡志明、台北、印度班加羅爾、香港和韓國首爾、印尼雅加達和重慶舉辦。如果您有任何建議或聯繫的必要，請發送郵件至 asia-summit-list@gnome.org 取得聯絡。',
+    aboutp1:'GNOME 基金會亞洲委員會在 2008 年成立，旨在通過舉辦 GNOME.Asia 亞洲峰會在亞洲地區推廣GNOME項目以及自由開源軟體的理念。GNOME.Asia 峰會與 GUADEC 峰會和 Boston 峰會一起成為了 GNOME 基金會每年的全球三大活動。此前的 GNOME.Asia 分別在北京、越南胡志明、台北、印度班加羅爾、香港和韓國首爾、印尼雅加達和重慶舉辦。',
 
     time:'舉辦時間：',
     time1:'2018年8月11-12日（Sat & Sun)',

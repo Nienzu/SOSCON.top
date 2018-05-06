@@ -11,9 +11,9 @@ module.exports={
 
   },
   About:{
-    soscon:'Students Open Source Conference',
-    aboutp1:'Initiated by we students, the Student Open Source Conference - SOSS is meant to be an annual technology summit that is organized by students and serves students, helping fulfill our promise that more and more students will learn Open Source and participate in open source projects. We sincerely hope that through the summit events students can meet new friends, exchange experience and ideas, anchor themselves in the vast ocean of open source projects then forge their own path in their open source adventures. \n',
-    sosconp2:'Students Open Source Conference - SOScon is the sibling event of SITCON. It is also the first open source conference in China to target specifically on students. Most of the participants, including presenters, volunteer workers and the audience are going to be students.Would not you agree that it is the students who would enjoy Open Source the most and contribute Open source with the greatest passion and the best innovation?',
+
+    aboutp1:'GNOME.Asia Summit is the featured annual GNOME Conference in Asia. The event focuses primarily on the GNOME desktop, but also covers applications and the development platform tools. It brings together the GNOME community in Asia to provide a forum for users, developers, foundation leaders, governments and businesses to discuss the present technology and future developments.GNOME.Asia Summits have been held in Beijing, Ho-Chi-Minh City, Taipei, Bangalore, Hong Kong, Seoul, Beijing, Depok, New Delhi, Chongqing respectively over the last ten years.',
+
 
     hoping:'Our vision of SOSCON',
     hopingp1:'SOSCON 2018 will be held in hot Chongqing from June 9-10, 2018. Students from all over the country will gather together. It must be a feast for technology and reflection!',
