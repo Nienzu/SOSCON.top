@@ -8,7 +8,22 @@
 </template>
 
 <script>
+
   import Nav from "./components/Nav";
+  //判断语言
+  var currnetLang = navigator.language;
+  if(!localStorage.lang) {
+    if (!currnetLang || currnetLang=="zh-CN") {
+      localStorage.lang = 'zhCHS'
+    }
+    else if (currnetLang == "zh-HK" || currnetLang == "zh-TW") {
+      localStorage.lang = 'zhCHT'
+    }
+    else {
+      localStorage.lang = 'en'
+    }
+  }
+
   export default {
     name: 'App',
     components: {Nav},

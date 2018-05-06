@@ -106,12 +106,34 @@
   transition: 0.3s ease-in-out;
 }
 
+.enHomeTitle{
+  height: 381px;
+  width: 483px;
+  margin: 10% auto;
+  background-image: url("../img/newHomeTitle.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.twHomeTitle{
+  height: 381px;
+  width: 483px;
+  margin: 10% auto;
+  background-image: url("../img/newHomeTitle.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
 .homeButton1{
   height: 46px;
   width: 200px;
   top:400px;
   left: 10px;
-  background-image:url("../img/aboutSoscon.png");
+  background-image:url("../img/Button-About-cn.png");
   position: absolute;
 }
 
@@ -120,9 +142,46 @@
   width: 200px;
   top: 400px;
   right: 10px;
-  background-image: url("../img/join.png");
+  background-image: url("../img/Button-Apply-cn.png");
   position: absolute;
 }
+
+.enHomeButton1{
+  height: 50px;
+  width: 200px;
+  top:400px;
+  left: 10px;
+  background-image:url("../img/Button-About-en.png");
+  position: absolute;
+}
+
+.enHomeButton2{
+  height: 50px;
+  width: 200px;
+  top: 400px;
+  right: 10px;
+  background-image: url("../img/Button-Apply-en.png");
+  position: absolute;
+}
+
+.twHomeButton1{
+  height: 50px;
+  width: 200px;
+  top:400px;
+  left: 10px;
+  background-image:url("../img/Button-About-tc.png");
+  position: absolute;
+}
+
+.twHomeButton2{
+  height: 50px;
+  width: 200px;
+  top: 400px;
+  right: 10px;
+  background-image: url("../img/Button-Apply-tc.png");
+  position: absolute;
+}
+
 .baoming{
   display:flex;
   flex-direction: row;
@@ -300,7 +359,19 @@
     margin-top: 25%;
     background-image: url("/static/img/newHomeTitle.png");
   }
+  .enHomeTitle{
+    height: 270px;
+    width: 285px;
+    margin-top: 25%;
+    background-image: url("../../static/img/newHomeTitle.png");
+  }
 
+  .twHomeTitle{
+    height: 270px;
+    width: 285px;
+    margin-top: 25%;
+    background-image: url("../../static/img/newHomeTitle.png");
+  }
   .homeButton1{
     height: 30px;
     width: 110px;
@@ -319,5 +390,41 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
+  .enHomeButton1{
+    height: 30px;
+    width: 110px;
+    top:300px;
+    left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
 
+  }
+
+  .enHomeButton2{
+    height: 30px;
+    width: 110px;
+    top: 300px;
+    right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .twHomeButton1{
+    height: 30px;
+    width: 110px;
+    top:300px;
+    left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+  .twHomeButton2{
+    height: 30px;
+    width: 110px;
+    top: 300px;
+    right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }

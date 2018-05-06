@@ -7,60 +7,64 @@
         <div class="col s12">
           <div    class="icon-block second applyContainer">
             <h2 class="center brown-text"><i class="material-icons co1">perm_camera_mic</i></h2>
-            <h3 class="center">招募講者</h3>
+            <h3 class="center">{{$t("Apply.cfp")}}</h3>
               
             <div><a class="waves-effect waves-light btn modal-trigger back1 center" href="https://docs.google.com/forms/d/e/1FAIpQLSfKnffsc_Ke2ZEP3fInJkAwEzXFUM24HZ7dYYluoGLmHMQjZw/viewform">
-                  報名成為講者
+                  {{$t("Apply.summit")}}
                   </a>
                   </div>
             <!--<p class="light">-->
             <div style="margin-top:40px; " >
               <p style="font-weight: 700;font-size: x-large">————</p>
-              <h6>重要信息</h6>
+              <h5 class="center">{{$t("Apply.info")}}</h5>
               <ul class="collection">
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>投稿期限： 5 月 25日</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>日議程表預定公布： 七月上旬</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>GNOME.Asia 2018： 8 月 11-12 日</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i>舉辦地點：台灣科技大學</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>{{$t("Apply.deadline")}} {{$t("Apply.deadline1")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>{{$t("Apply.notification")}} {{$t("Apply.notification1")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>{{$t("Apply.agenda")}} {{$t("Apply.agenda1")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>{{$t("Apply.date")}} {{$t("Apply.date1")}}</li>                
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i>{{$t("Apply.location")}} {{$t("Apply.location1")}}</li>                
               </ul>
               <p style="font-weight: 700;font-size: x-large">————</p>
-              <h6>GNOME.Asia 2018 Summit 演讲募集中！
-                <!--<p style=">你是否愿意分享自己对开源和code的热爱和不一样的见解？</p>-->
-                GNOME.Asia 2018 Summit 即日起至5月25日開放演講報名
-                <br>歡迎廣大的 GNOME 用戶、愛好者提交演講
-                <br>與 GNOME 有關的開發、本地化、社區運營、推廣等話題，包括但不限於：
-              </h6>
-              <ul class="collection">
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME的最新開發動態</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 開發GNOME 3 的應用</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 界面設計</li>
+              <h5 class="center">
+                {{$t("Apply.applyInfo1")}}
+              </h5>
+              <ul class="collection with-header">
+                <li class="collection-header"><h6>{{$t("Apply.list0")}}</h6></li>                
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list1")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list2")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list3")}}</li>
                 
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 測試</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 輔助功能</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME人機界面工程（圖標和圖形設計）</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 市場</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 推廣自由軟體 / 開源軟體</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 亞洲成功案例或本地GNOME項目</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME和教育</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> GNOME 女性拓展計劃</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 在移動設備上使用和開發 GNOME (智能手機和平板)</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 在嵌入設備或開源硬體上使用和開發 GNOME</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list4")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list5")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list6")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list7")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list8")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list9")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list10")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list11")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.list12")}}</li>
               </ul>
-              <h6>其他非 GNOME，但是和 Linux 以及開源有關的話題，包括但不限於：</h6>
-              <ul class="collection">
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> Linux 內核及開發</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 開源操作系統的開發、使用和技術、推廣</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> Debian、Fedora、openSUSE、Ubuntu、及FreeBSD等發行版相關的話題</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 其他開源項目有關的開發、使用、推廣話題</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 你的開源故事、如何參與開源社區、開源經歷</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 女生如何更好地參與開源</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 在生活及工作中如何使用開源工具改善流程與提高效率</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 人工智慧、深度學習、機器學習相關話題</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> AR/VR 虛擬顯示、增強顯示、顯示技術</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 大數據</li>
-                <li class="collection-item"><i class="large material-icons ">chevron_right</i> 其他和開源有關的話題</li>
+              <ul class="collection with-header">
+                <li class="collection-header"><h6> {{$t("Apply.linux")}} </h6></li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist1")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist2")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist3")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist4")}}</li>
               </ul>
-              <h6>本次大會的所有演講將會被錄影並以 CC-BY-4.0 協議分享到共有領域。如果您的演講有不能錄影或不願遵照此條款，請務必於投稿表單上註明。（請亦不必有心理負擔）</h6>
+              <ul class="collection with-header">
+                <li class="collection-header"><h6> {{$t("Apply.story")}} </h6></li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist5")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist6")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist7")}}</li>
+              </ul>
+              <ul class="collection with-header">
+                <li class="collection-header"><h6> {{$t("Apply.emerging")}} </h6></li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist8")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist9")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist10")}}</li>
+                <li class="collection-item"><i class="large material-icons ">chevron_right</i> {{$t("Apply.olist11")}}</li>
+              </ul>
+              <!--<h6>本次大會的所有演講將會被錄影並以 CC-BY-4.0 協議分享到共有領域。如果您的演講有不能錄影或不願遵照此條款，請務必於投稿表單上註明。（請亦不必有心理負擔）</h6>-->
               
               <p style="font-weight: 700;font-size: x-large">————</p>   
             </div>

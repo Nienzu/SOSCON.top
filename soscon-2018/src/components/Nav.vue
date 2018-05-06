@@ -1,10 +1,15 @@
 <template>
    <div>
     <ul id="dropdown1" class="dropdown-content tit1">
-      <li><router-link to="" >简体中文</router-link></li>
-      <li><router-link to="" >繁体中文</router-link></li>
-      <!--<li class="divider"></li>-->
-      <li><router-link to="" >English</router-link></li>
+      <li>
+        <a @click="toEN">English</a>
+      </li>
+      <li>
+        <a @click="toZHCHS">简体中文</a>
+      </li>
+      <li>
+        <a @click="toZHCHT">繁体中文</a>
+      </li>
     </ul>
 
 
@@ -13,30 +18,58 @@
         <router-link to="/" class="brand-logo" style="margin-left: 3%">GNOME.Asia<span style="color: #66ccff"> 2018 Summit</span></router-link>
         <router-link to="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></router-link>
         <ul class="right hide-on-med-and-down" style="margin-right: 3%">
-          <li><router-link to="/">首页</router-link></li>
-          <li ><router-link to="apply">投稿</router-link></li>
-          <li class="t1"><router-link to="">議程</router-link></li>
-          <li class="t1"><router-link to="">新聞</router-link></li>
-          <li class="t1"><router-link to="">感謝</router-link></li>
-          <!--<li><router-link to="/aboutUs" >關於我們</router-link></li>-->
-          <li class="t1"><a class="dropdown-trigger" href="#!"  data-target="dropdown1">语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li>
+            <router-link to="/">{{$t("Nav.home")}}</router-link>
+          </li>
+          <li>
+            <router-link to="apply">{{$t("Nav.apply")}}</router-link>
+          </li>
+          <li class="t1">
+            <router-link to="">{{$t("Nav.agenda")}}</router-link>
+          </li>
+          <li class="t1">
+            <router-link to="">{{$t("Nav.news")}}</router-link>
+          </li>
+          <li class="t1">
+            <router-link to="">{{$t("Nav.thanks")}}</router-link>
+          </li>
+          <li ><a class="dropdown-trigger"  data-target="dropdown1">{{$t("Nav.lang")}}<i
+            class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
     </nav>
     <ul id="dropdown2" class="dropdown-content tit1">
-      <li><router-link to="" >简体中文</router-link></li>
-      <li><router-link to="" >繁体中文</router-link></li>
-      <!--<li class="divider"></li>-->
-      <li><router-link to="" >English</router-link></li>
+      <li>
+        <a @click="toEN">English</a>
+      </li>
+      <li>
+        <a @click="toZHCHS">简体中文</a>
+      </li>
+      <li>
+        <a @click="toZHCHT">繁体中文</a>
+      </li>
     </ul>
     <ul class="sidenav" id="mobile-demo">
-      <li @click="closeNav"><router-link to="/" >首页</router-link></li>
-      <li @click="closeNav"><router-link to="/apply" >报名</router-link></li>
-      <li><router-link to=""  class="t1">议程</router-link></li>
-      <li ><router-link to="" class="t1">动态</router-link></li>
-      <li><router-link to="" class="t1">感谢</router-link></li>
-      <li @click="closeNav"><router-link to="/aboutUs"  >关于我们</router-link></li>
-      <li><a class="dropdown-trigger t1"  data-target="dropdown2" >语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li @click="closeNav">
+        <router-link to="/">{{$t("Nav.home")}}</router-link>
+      </li>
+      <li @click="closeNav">
+        <router-link to="/apply">{{$t("Nav.apply")}}</router-link>
+      </li>
+      <li>
+        <router-link to="" class="t1">{{$t("Nav.agenda")}}</router-link>
+      </li>
+      <li>
+        <router-link to="" class="t1">{{$t("Nav.news")}}</router-link>
+      </li>
+      <li class="t3" @click="closeNav">
+        <router-link to="/community">{{$t("Nav.community")}}</router-link>
+      </li>
+      <li>
+        <router-link to="" class="t1">{{$t("Nav.thanks")}}</router-link>
+      </li>
+      <li><a class="dropdown-trigger" data-target="dropdown2">{{$t("Nav.lang")}}<i class="material-icons right">arrow_drop_down</i></a>
+      </li>
 
     </ul>
 
@@ -82,45 +115,44 @@
 
 
 <script>
-/*
-    export default {
-        name: "nav",
-        methods:{
-          closeNav() {
-            $('.sidenav').sidenav('close');
-          },
-          open1(){
-            $('#modalLogin').modal('open');
-          },
-          subLogin(){
-            $.ajax({
-              method: 'post',
-              url: '/account/login',
-              data: $('#login').serialize()
-            }).done(function (data) {
-              if (data.result !== '登录成功'){
-                  this.name = 'data.name'
-                  this.$emit('userLogin')
-                  window.location.reload()
-              }
-              else {
-                swal({
-                  text: data.result,
-                  type: 'error',
-                  timer: 2000
-                })
-                $('#login')[0].reset()
-              }
-            })
-          }
-        },
+export default {
+    name: "nav",
+    props: ['name'],
+    methods: {
 
-    }
-    window.onload=function () {
-      // $(".dropdown-trigger").dropdown();
-      $('.modal').modal();
-    }
-    */
+      open1() {
+        $('#modalLogin').modal('open');
+      },
+      open() {
+        $('.modal').modal();
+        $('#modalRegister').modal('open');
+      },
+      closeNav() {
+        $('.sidenav').sidenav('close');
+      },
+      toZHCHS(){
+        localStorage.lang='zhCHS'
+        this.$i18n.locale='zhCHS'
+        window.location.reload()
+      },
+      toZHCHT(){
+        localStorage.lang='zhCHT'
+        this.$i18n.locale='zhCHT'
+        window.location.reload()
+      },
+      toEN(){
+        localStorage.lang='en'
+        this.$i18n.locale='en'
+        window.location.reload()
+      }
+
+    },
+
+  }
+  window.onload = function () {
+    $(".dropdown-trigger").dropdown();
+    $('.modal').modal();
+  }
 </script>
 
 <style scoped>
